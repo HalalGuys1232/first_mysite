@@ -1,0 +1,7 @@
+
+<h1>Add a new choice</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Add Choice</button>
+</form>
